@@ -7,6 +7,21 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
-        return view('index');
+        $page = "Home";
+        return view('partial.navbar', compact('page'));
     }
+
+    // contact function
+    public function contact(){
+        $page = "contact";
+        return view('partial.navbar', compact('page'));
+    }
+
+    // Agent single function
+    public function agent_single(){
+        return view('agent-single');
+    
+    }
+
+
 }

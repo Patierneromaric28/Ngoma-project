@@ -21,3 +21,5 @@ class Property extends Model
         'batch',
     ];
 }
+
+
