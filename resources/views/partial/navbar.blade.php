@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
+
 
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  
-    <title>NgomaRealty || {{__($page)}}</title>
+
+    <title>NgomaRealty </title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-  
+
     <!-- Favicons -->
     <link href="assets/img/favicon2.png" rel="icon">
     <link href="assets/img/touch_img.png" rel="apple-touch-icon">
-  
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-  
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  
+
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-  
-    
+
+
   </head>
 
 <!-- ======= Header/Navbar ======= -->
 <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+
     <div class="container">
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -78,7 +79,7 @@
       <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
         <i class="bi bi-search">Search</i>
       </button>
-      
+
 
     </div>
     <!-- ======= Property Search Section ======= -->
