@@ -9,6 +9,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PropertyController;
 use App\Http\Controllers\{
     AuthController,
+    PropertySearchController
 
 };
 use Illuminate\Routing\RouteGroup;
@@ -42,3 +43,7 @@ Route::get('/agent-single',[AgentController::class, 'agent_single'])->name('prpe
 
 //login
 Route::get('/login',[AuthController::class, 'login'])->name('login');
+
+//search
+
+Route::get('/search', [PropertySearchController::class, 'search'])->name('search.property');
