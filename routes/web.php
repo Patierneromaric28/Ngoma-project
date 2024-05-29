@@ -14,7 +14,7 @@ use App\Http\Controllers\{
 };
 use Illuminate\Routing\RouteGroup;
 use Illuminate\Support\Facades\Route;
-
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 Route::prefix('shalom')->group(function () {
 
@@ -43,7 +43,12 @@ Route::get('/agent-single',[AgentController::class, 'agent_single'])->name('prpe
 
 //login
 Route::get('/login',[AuthController::class, 'login'])->name('login');
+Route::get('register',[AuthController::class, 'register'])->name('register');
 
+Route::post('/store/user',[AuthController::class, 'store'])->name('storeuser');
 //search
 
 Route::get('/search', [PropertySearchController::class, 'search'])->name('search.property');
+
+// Dashboard routes
+Route::get('/Admin',[AdminController::class, 'index'])->name('admin.index');

@@ -90,10 +90,10 @@
                     </div>
                     <div class="icon-box-content">
                       <p class="mb-1">Email.
-                        <span class="color-a">contact@example.com</span>
+                        <span class="color-a">ngomarealty@yahoo.com</span>
                       </p>
                       <p class="mb-1">Phone.
-                        <span class="color-a">+54 356 945234</span>
+                        <span class="color-a">+237 622 334 121</span>
                       </p>
                     </div>
                   </div>
@@ -177,10 +177,10 @@
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> contact@example.com
+                  <span class="color-text-a">Email.</span> ngomarealty@yahoo.com
                 </li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> +54 356 945234
+                  <span class="color-text-a"> Phone .</span> +237 622 334 121
                 </li>
               </ul>
             </div>

@@ -21,7 +21,7 @@
                       <br> Bambili
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="/property-single.html"><span class="price-a">Sale | $ 12.000</span></a>
+                      <a href="/property-single"><span class="price-a">Sale | XAF 12M</span></a>
                     </p>
                   </div>
                 </div>
@@ -47,7 +47,7 @@
                       <br> Street 5 Mbelem
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">rent | XAF 1,700,000</span></a>
                     </p>
                   </div>
                 </div>
@@ -72,7 +72,7 @@
                       <br> Ntahbessi
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">rent | XAF 17M</span></a>
                     </p>
                   </div>
                 </div>
@@ -99,7 +99,7 @@
                       <br> Upstation
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
+                      <a href="#"><span class="price-a">rent |XAF 17M</span></a>
                     </p>
                   </div>
                 </div>
@@ -126,7 +126,7 @@
                       <br> Upstation
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="/property-single.html"><span class="price-a">Rent | $ 12.000</span></a>
+                      <a href="/property-single"><span class="price-a">Rent | XAF 17M</span></a>
                     </p>
                   </div>
                 </div>
@@ -322,7 +322,7 @@
                 <h2 class="title-a">Best Agents</h2>
               </div>
               <div class="title-link">
-                <a href="agents-grid.html">All Agents
+                <a href="agents-grid">All Agents
                   <span class="bi bi-chevron-right"></span>
                 </a>
               </div>
@@ -339,7 +339,7 @@
                 <div class="card-header-d">
                   <div class="card-title-d align-self-center">
                     <h3 class="title-d">
-                      <a href="agent-single.html" class="link-two">Margaret Sotillo
+                      <a href="agent-single" class="link-two">Margaret Sotillo
                         <br> Escala</a>
                     </h3>
                   </div>
@@ -395,7 +395,7 @@
                 <div class="card-header-d">
                   <div class="card-title-d align-self-center">
                     <h3 class="title-d">
-                      <a href="agent-single.html" class="link-two">Stiven Spilver
+                      <a href="agent-single" class="link-two">Stiven Spilver
                         <br> Darw</a>
                     </h3>
                   </div>
@@ -451,7 +451,7 @@
                 <div class="card-header-d">
                   <div class="card-title-d align-self-center">
                     <h3 class="title-d">
-                      <a href="agent-single.html" class="link-two">Emma Toledo
+                      <a href="agent-single" class="link-two">Emma Toledo
                         <br> Cascada</a>
                     </h3>
                   </div>
@@ -532,7 +532,7 @@
                 <h2 class="title-a">Latest News</h2>
               </div>
               <div class="title-link">
-                <a href="blog-grid.html">All News
+                <a href="blog-grid">All News
                   <span class="bi bi-chevron-right"></span>
                 </a>
               </div>
@@ -579,7 +579,7 @@
                     </div>
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="blog-single.html">Travel is comming
+                        <a href="blog-single">Travel is comming
                           <br> new</a>
                       </h2>
                     </div>
@@ -603,7 +603,7 @@
                     </div>
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="blog-single.html">Park is comming
+                        <a href="blog-single">Park is comming
                           <br> new</a>
                       </h2>
                     </div>

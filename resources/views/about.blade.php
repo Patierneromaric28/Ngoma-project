@@ -9,7 +9,7 @@
         <div class="row">
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
-              <h1 class="title-single">We Do Great Design For Creative Folks</h1>
+              <h1 class="title-single">We Do Great Design For Creative Ideas</h1>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
@@ -34,7 +34,7 @@
         <div class="row">
           <div class="col-sm-12 position-relative">
             <div class="about-img-box">
-              <img src="assets/img/slide-about-1.jpg" alt="" class="img-fluid">
+              <img src="assets/img/slide-about-5.jpg" alt="" class="img-fluid">
             </div>
             <div class="sinse-box">
               <h3 class="sinse-title">NgomaRealty
@@ -56,24 +56,27 @@
               </div>
               <div class="col-md-6 col-lg-5 section-md-t3">
                 <div class="title-box-d">
-                  <h3 class="title-d">Sed
-                    <span class="color-d">porttitor</span> lectus
-                    <br> nibh.
+                  <h3 class="title-d">SRP
+                    <span class="color-d">Secure.  </span> Reliable &
+                    <br> Profitable
                   </h3>
                 </div>
                 <p class="color-text-a">
-                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget
-                  consectetur sed, convallis
-                  at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum
-                  ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit
-                  neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                  "Our real estate platform is designed to be Secure, Reliable, and Profitable for our clients.
+                   We prioritize the protection of your sensitive data, the consistency of our service, and the 
+                   maximization of your returns. With our cutting-edge technology and experienced team, you can 
+                   trust that your real estate investments are in good hands. Contact us today to learn more about 
+                   how our Secure, Reliable, and Profitable system can help you achieve your goals."
                 </p>
                 <p class="color-text-a">
-                  Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                  Mauris blandit aliquet
-                  elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed,
-                  convallis at tellus.
-                </p>
+                  "Secure. Reliable. Profitable.
+
+                  These three words are the foundation of our real estate platform. We are committed to safeguarding your sensitive
+                   information, delivering consistent and dependable service, and maximizing the profitability of your investments.
+
+                  Trust our experienced team and innovative technology to take your real estate portfolio to new heights. Contact us today
+                   to learn more about how our Secure, Reliable, and Profitable system can benefit you."
+</p>            </p>
               </div>
             </div>
           </div>
@@ -110,7 +113,7 @@
                 </div>
                 <div class="card-body-d">
                   <p class="content-d color-text-a">
-                    Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                    Driven by a passion for maximizing client investments.
                   </p>
                   <div class="info-agents color-a">
                     <p>
@@ -166,7 +169,7 @@
                 </div>
                 <div class="card-body-d">
                   <p class="content-d color-text-a">
-                    Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                    Tenacious negotiator, delivers exceptional results.
                   </p>
                   <div class="info-agents color-a">
                     <p>
@@ -227,7 +230,7 @@
                 </div>
                 <div class="card-body-d">
                   <p class="content-d color-text-a">
-                    Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                    Innovative problem-solver, trusted advisor.
                   </p>
                   <div class="info-agents color-a">
                     <p>
