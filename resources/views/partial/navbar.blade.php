@@ -18,7 +18,7 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
+    <link href="{{asset('assets/css/loader.css')}}" rel="stylesheet">
     {{-- header for login & registration form --}}
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -199,6 +199,7 @@
 
 </nav><!-- End Header/Navbar -->
 <body>
+    @yield('loader')
     @yield('content')
     {{-- @extends('partial.footer') --}}
    @yield('scripts')
