@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
-              <h1 class="title-single">Margaret Stone</h1>
+              <h1 class="title-single">Crystelle Jerette</h1>
               <span class="color-text-a">Agent Immobiliari</span>
             </div>
           </div>
@@ -22,7 +22,7 @@
                   <a href="#">Agents</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  Margaret Stone
+                  Crystelle Jerette
                 </li>
               </ol>
             </nav>
@@ -46,8 +46,8 @@
                 <div class="agent-info-box">
                   <div class="agent-title">
                     <div class="title-box-d">
-                      <h3 class="title-d">Margaret Stone
-                        <br> Escala
+                      <h3 class="title-d">Crystelle Jerette
+                        <br> Palkar
                       </h3>
                     </div>
                   </div>
@@ -64,15 +64,15 @@
                       </p>
                       <p>
                         <strong>Mobile: </strong>
-                        <span class="color-text-a"> 999 123 456 789</span>
+                        <span class="color-text-a"> +237 695 676 543</span>
                       </p>
                       <p>
                         <strong>Email: </strong>
-                        <span class="color-text-a"> agents@example.com</span>
+                        <span class="color-text-a"> crytellejerette.com</span>
                       </p>
                       <p>
                         <strong>skype: </strong>
-                        <span class="color-text-a"> Margaret.Es</span>
+                        <span class="color-text-a"> Crystelle Jerette</span>
                       </p>
                       <p>
                         <strong>Email: </strong>
@@ -329,7 +329,7 @@
                     </div>
                     <div class="card-body-a">
                       <div class="price-box d-flex">
-                        <span class="price-a">rent | $ 12.000</span>
+                        <span class="price-a">rent | XAF 1,200,000</span>
                       </div>
                       <a href="#" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
@@ -376,7 +376,7 @@
                     </div>
                     <div class="card-body-a">
                       <div class="price-box d-flex">
-                        <span class="price-a">rent | $ 12.000</span>
+                        <span class="price-a">rent | XAF 1,900,000</span>
                       </div>
                       <a href="#" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
@@ -422,7 +422,7 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">EstateAgency</h3>
+              <h3 class="w-title-a text-brand">NgomaRealty</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">

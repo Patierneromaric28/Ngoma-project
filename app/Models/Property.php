@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Property extends Model
 {
     use HasFactory;
+    protected $table = 'property';
     protected $fillable = [
         'city',
         'user_id',
@@ -19,6 +20,7 @@ class Property extends Model
         'location',
         'status',
         'batch',
+        'image',
     ];
 }
 
