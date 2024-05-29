@@ -73,17 +73,28 @@
             </ul>
         </div>
         <div class="d-flex align-items-center">
-            <a href="login" class="btn btn-outline-primary me-2">
-                <i class="bi bi-box-arrow-in-right"></i> Login
-            </a>
-            <a href="register" class="btn btn-outline-success me-2">
-                <i class="bi bi-person-plus"></i> Register
-            </a>
+            @auth
+                <a href="{{ route('admin.index') }}" class="btn btn-outline-primary me-2">
+                    <i class="bi bi-speedometer2"></i> Dashboard
+                </a>
+
+                <a href="{{ route('user.logout') }}" class="btn btn-outline-primary me-2">
+                    <i class="bi bi-lock"></i>Logout
+                </a>
+            @else
+                <a href="{{ route('login') }}" class="btn btn-outline-primary me-2">
+                    <i class="bi bi-box-arrow-in-right"></i> Login
+                </a>
+                <a href="{{ route('register') }}" class="btn btn-outline-success me-3">
+                    <i class="bi bi-person-plus"></i> Register
+                </a>
+            @endauth
 
             <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
                 <i class="bi bi-search"></i> Search
             </button>
         </div>
+
     </div>
     <!-- ======= Property Search Section ======= -->
     <div class="click-closed"></div>

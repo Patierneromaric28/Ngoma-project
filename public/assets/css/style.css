@@ -12,7 +12,7 @@
 body {
     font-family: "Poppins", sans-serif;
     color: #555555;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     /* overflow-y: hidden; */
   }
 
@@ -30,7 +30,15 @@ body {
     text-decoration: none;
     transition: all 0.5s ease;
   }
-
+  .custom-alert {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
   a:hover {
     color: #e4b766;
     text-decoration: none;
@@ -2208,6 +2216,7 @@ body {
     background-color: #007bff;
     border: none;
 }
+
 .login-container .btn-primary:hover {
     background-color: #0056b3;
 }

@@ -45,10 +45,14 @@ Route::get('/agent-single',[AgentController::class, 'agent_single'])->name('prpe
 Route::get('/login',[AuthController::class, 'login'])->name('login');
 Route::get('register',[AuthController::class, 'register'])->name('register');
 
-Route::post('/store/user',[AuthController::class, 'store'])->name('storeuser');
-//search
+Route::post('store/user',[AuthController::class, 'store'])->name('storeuser.register');
+Route::post('login/user',[AuthController::class, 'checkLogin'])->name('login.user');
+Route::get('logout', [AuthController::class, 'logout'])->name('user.logout');
+Route::post('admin/login', [AdminController::class, 'adminLogin'])->name('admin.checklogin');
+//searchadmin.checklogin
 
 Route::get('/search', [PropertySearchController::class, 'search'])->name('search.property');
 
 // Dashboard routes
-Route::get('/Admin',[AdminController::class, 'index'])->name('admin.index');
+// Route::get('/admin/login',[AdminController::class, 'index'])->name('admin.index');
+Route::get('/Dashboard',[AdminController::class, 'index'])->name('admin.index');
