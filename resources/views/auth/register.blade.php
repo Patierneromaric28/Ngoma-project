@@ -75,7 +75,7 @@
                         <div class="name">Type</div>
                         <div class="value">
                             <div class="input-group">
-                                <div class="rs-select2 js-select-simple select--no-search">
+                                <div class="input--style-5 js-select-simple select--no-search">
                                     <select name="type">
                                         <option disabled="disabled" selected="selected">Choose User type</option>
                                         <option>User</option>
@@ -86,6 +86,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="text-center mt-3" style="margin-left: 50%">
+                        <a href="login" class="text-primary">Don't have an account? Login</a>
                     </div>
                     <div>
                         <button class="btn btn--radius-2 btn--red" type="submit">Register</button>
