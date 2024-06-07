@@ -12,6 +12,7 @@ class HomeController extends Controller
         return view('index', compact('properties'));
     }
 
+    
     // contact function
     public function contact(){
         $page = "contact";

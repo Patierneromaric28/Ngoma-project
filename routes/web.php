@@ -19,14 +19,17 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 Route::prefix('shalom')->group(function () {
 
 });
-Route::get('/',[HomeController::class, 'index' ])->name('index');
+
+Route::get('/', [HomeController::class, 'index' ])->name('index');
 
 Route::get('/about',[AboutController::class, 'about' ])->name('about');
 //Route::get('/',[HomeController::class, 'index' ])->name('index');
 
-Route::get('/about',[AboutController::class, 'about' ])->name('about');
+// Route::get('/about', [AboutController::class, 'about' ])->name('about');
 
 Route::get('/contact',[HomeController::class, 'contact'])->name('contact');
+
+Route::get('/property-single/{id}', [PropertyController::class, 'singleProperty'])->name('property-single/{$id}');
 
 //blog route
 Route::get('/blog-grid',[BlogController::class, 'blog'])->name('blog');
@@ -34,7 +37,7 @@ Route::get('/blog-single',[BlogController::class, 'blog_single'])->name('blog_si
 
 // property route
 Route::get('/property',[PropertyController::class, 'property'])->name('property');
-Route::get('/property-single',[PropertyController::class, 'property_single'])->name('property_single');
+// Route::get('/property-single',[PropertyController::class, 'property_single'])->name('property_single');
 Route::get('/property-grid',[PropertyController::class, 'property_grid'])->name('property_grid');
 
 // agent controller
@@ -52,7 +55,6 @@ Route::post('admin/login', [AdminController::class, 'adminLogin'])->name('admin.
 //searchadmin.checklogin
 
 Route::get('/search', [PropertySearchController::class, 'search'])->name('search.property');
-
 // Dashboard routes
 Route::get('/admin/login',[AdminController::class, 'index'])->name('admin.index');
 Route::get('/Admin',[AdminController::class, 'index'])->name('Dashboard.index');

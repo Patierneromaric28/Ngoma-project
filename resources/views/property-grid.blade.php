@@ -53,7 +53,7 @@
                     <div class="price-box d-flex">
                       <span class="price-a">{{ $property->status }} | XAF {{ $property->price }}</span>
                     </div>
-                    <a href="#" class="link-a">Click here to view
+                    <a href="{{url('property-single/'.$property->id)}}" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>

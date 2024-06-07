@@ -31,7 +31,16 @@ class PropertyController extends Controller
             // Pass the properties data to the view
             return view('property-grid', compact('properties'));
         }
-    
 
+        public function singleProperty(Request $request, $id)
+        {
+            $property = Property::with('description')->find($id);
+
+            if (!$property) {
+                return redirect()->back();
+            }
+
+            return view('property-single', compact('property'));
+        }
 }
 

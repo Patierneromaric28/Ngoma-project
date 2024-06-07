@@ -7,34 +7,30 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Favicons -->
-    <link href="assets/img/favicon2.png" rel="icon">
-    <link href="assets/img/touch_img.png" rel="apple-touch-icon">
+    <link href="{{url('assets/img/favicon2.png')}}" rel="icon">
+    <link href="{{url('assets/img/touch_img.png')}}" rel="apple-touch-icon">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{url('assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{url('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+    <link href="{{url('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="{{url('assets/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/loader.css')}}" rel="stylesheet">
     {{-- header for login & registration form --}}
     <!-- Icons font CSS-->
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="{{url('vendor/mdi-font/css/material-design-iconic-font.min.css')}}" rel="stylesheet" media="all">
+    <link href="{{url('vendor/font-awesome-4.7/css/font-awesome.min.css')}}" rel="stylesheet" media="all">
     <!-- Font special for pages-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
     <!-- Vendor CSS-->
-    <link href="assets/auth/vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="assets/auth/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+    <link href="{{url('assets/auth/vendor/select2/select2.min.css')}}" rel="stylesheet" media="all">
+    <link href="{{url('assets/auth/vendor/datepicker/daterangepicker.css')}}" rel="stylesheet" media="all">
 
-    <!-- Main CSS-->
-    <link href="assets/auth/css/main.css" rel="stylesheet" media="all">
-    
-    
-
+    <link href="{{url('assets/auth/css/main.css')}}" rel="stylesheet" media="all">
 </head>
 <!-- ======= Header/Navbar ======= -->
 {{-- @yield('navbar', ['active' => '']) --}}

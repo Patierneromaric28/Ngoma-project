@@ -10,18 +10,14 @@ class Property extends Model
     use HasFactory;
     protected $table = 'property';
     protected $fillable = [
-        'city',
-        'user_id',
-        'price',
-        'area',
-        'beds',
-        'baths',
-        'garage',
-        'location',
-        'status',
-        'batch',
-        'image',
+        'title', 'location', 'image_path', 'price', 'property_type', 'status',
+        'area', 'beds', 'baths', 'garages', 'description', 'amenities', 'agent_id'
     ];
+
+    public function description()
+    {
+        return $this->hasOne(Description::class);
+    }
 }
 
 

@@ -14,8 +14,7 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     // dashboard controller
-
-    public function dashboard(){
+function dashboard(){
         return view('Dashboard.index');
     }
     public function index(){
