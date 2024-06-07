@@ -12,7 +12,7 @@
 body {
     font-family: "Poppins", sans-serif;
     color: #555555;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     /* overflow-y: hidden; */
   }
 
@@ -26,11 +26,19 @@ body {
   }
 
   a {
-    color: #000000;
+    color: #fff;
     text-decoration: none;
     transition: all 0.5s ease;
   }
-
+  .custom-alert {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
   a:hover {
     color: #e4b766;
     text-decoration: none;
@@ -127,7 +135,7 @@ body {
   }
 
   .text-brand {
-    color: #000000;
+    color: #e4b766;
     font-size: 2rem;
     font-weight: 600;
   }
@@ -157,7 +165,7 @@ body {
 
   .color-text-a {
     text-decoration: none;
-    color: #555555;
+    color: #fff;
   }
 
   .no-margin {
@@ -553,7 +561,6 @@ body {
     left: calc(50% - 30px);
     border: 6px solid #f2f2f2;
     border-top: 6px solid #e4b766;
-    border-radius: 50%;
     width: 60px;
     height: 60px;
     animation: animate-preloader 1s linear infinite;
@@ -997,6 +1004,7 @@ body {
     height: 100vh;
     position: relative;
     color: #ffffff;
+    /* margin-bottom: 50px; */
   }
 
   .intro .swiper-pagination {
@@ -1024,6 +1032,7 @@ body {
   .intro .carousel-item-a {
     position: relative;
     height: 100vh;
+
   }
 
   .intro .carousel-item-a.bg-image {
@@ -1979,7 +1988,7 @@ body {
 
   .testimonials-box .testimonial-avatar {
     width: 80px !important;
-    display: inline-flex !important;
+    display: flex-box !important;
     border-radius: 50%;
   }
 
@@ -2161,7 +2170,7 @@ body {
   .section-footer {
     padding-top: 60px;
     margin-top: 60px;
-    background: #f3f3f3;
+    background: rgba(27, 39, 61, 0.99);
   }
 
   .section-footer ul {
@@ -2171,7 +2180,7 @@ body {
   .section-footer .item-list-a i {
     font-size: 18px;
     padding-right: 4px;
-    color: #e4b766;
+    color: #fff;
   }
 
   .section-footer .widget-a .w-title-a {
@@ -2208,6 +2217,7 @@ body {
     background-color: #007bff;
     border: none;
 }
+
 .login-container .btn-primary:hover {
     background-color: #0056b3;
 }

@@ -5,6 +5,32 @@
 
     <div class="swiper-wrapper">
 
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/hero_bg_3.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Centre, Mifi
+                      <br> Yaounde
+                    </p>
+                    <h1 class="intro-title mb-4 ">
+                      <span class="color-b">Nouveille </span> Reu
+                      <br> Bastos
+                    </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="/property-single"><span class="price-a">Sale | XAF 12M</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-1.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
@@ -161,17 +187,16 @@
             <div class="card-box-c foo">
               <div class="card-header-c d-flex">
                 <div class="card-box-ico">
-                  <span class="bi bi-cart"></span>
+                    <span class="bi bi-briefcase"></span>
                 </div>
+
                 <div class="card-title-c align-self-center">
-                  <h2 class="title-c">Lifestyle</h2>
+                  <h2 class="title-c">Consultancy</h2>
                 </div>
               </div>
               <div class="card-body-c">
                 <p class="content-c">
-                  Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                  convallis a pellentesque
-                  nec, egestas non nisi.
+                 NgomaRealty offers professional consultancy to all its agents customers at very affordable price...
                 </p>
               </div>
               <div class="card-footer-c">
@@ -815,7 +840,25 @@
   </section>
 
   @endsection
+  @section('loader')
+  <div class="cssload-dots">
+      <div class="cssload-dot"></div>
+      <div class="cssload-dot"></div>
+      <div class="cssload-dot"></div>
+      <div class="cssload-dot"></div>
+      <div class="cssload-dot"></div>
+  </div>
 
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+          <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" ></feGaussianBlur>
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0	0 1 0 0 0	0 0 1 0 0	0 0 0 18 -7" result="goo" ></feColorMatrix>
+              <!--<feBlend in2="goo" in="SourceGraphic" result="mix" ></feBlend>-->
+          </filter>
+      </defs>
+  </svg>
+  @endsection
   @section('scripts')
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

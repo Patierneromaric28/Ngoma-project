@@ -18,7 +18,7 @@
             <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html">Home</a>
+                  <a href="index">Home</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
                   News Grid
@@ -46,7 +46,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -65,11 +65,11 @@
               <div class="card-overlay">
                 <div class="card-header-b">
                   <div class="card-category-b">
-                    <a href="blog-single.html" class="category-b">Travel</a>
+                    <a href="blog-single" class="category-b">Travel</a>
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -92,7 +92,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -115,7 +115,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -138,7 +138,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -161,7 +161,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>

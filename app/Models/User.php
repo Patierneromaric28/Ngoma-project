@@ -24,7 +24,7 @@ class User extends Authenticatable
         'email',
         'carier_code',
         'phone',
-        'loction',
+        'location',
         'account_type',
         'password',
         'identity_verification',

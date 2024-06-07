@@ -53,7 +53,7 @@
             </p>
           </div>
           <div class="credits">
-    
+
             Designed by <a href="#">NgomaRealty</a>
           </div>
         </div>
