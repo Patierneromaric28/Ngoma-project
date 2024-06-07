@@ -54,5 +54,6 @@ Route::post('admin/login', [AdminController::class, 'adminLogin'])->name('admin.
 Route::get('/search', [PropertySearchController::class, 'search'])->name('search.property');
 
 // Dashboard routes
-// Route::get('/admin/login',[AdminController::class, 'index'])->name('admin.index');
-Route::get('/Dashboard',[AdminController::class, 'index'])->name('admin.index');
+Route::get('/admin/login',[AdminController::class, 'index'])->name('admin.index');
+Route::get('/Admin',[AdminController::class, 'index'])->name('Dashboard.index');
+Route::get('Dashboard', [AdminController::class, 'dashboard'])->name('Dashboard');
