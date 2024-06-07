@@ -5,6 +5,32 @@
 
     <div class="swiper-wrapper">
 
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/hero_bg_3.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Centre, Mifi
+                      <br> Yaounde
+                    </p>
+                    <h1 class="intro-title mb-4 ">
+                      <span class="color-b">Nouveille </span> Reu
+                      <br> Bastos
+                    </h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="/property-single"><span class="price-a">Sale | XAF 12M</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-1.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">

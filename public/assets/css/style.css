@@ -1004,6 +1004,7 @@ body {
     height: 100vh;
     position: relative;
     color: #ffffff;
+    /* margin-bottom: 50px; */
   }
 
   .intro .swiper-pagination {

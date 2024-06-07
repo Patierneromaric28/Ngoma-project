@@ -32,6 +32,8 @@
 
     <!-- Main CSS-->
     <link href="assets/auth/css/main.css" rel="stylesheet" media="all">
+    
+    
 
 </head>
 <!-- ======= Header/Navbar ======= -->
@@ -199,7 +201,7 @@
 
 </nav><!-- End Header/Navbar -->
 <body>
-    @yield('loader')
+    {{-- @yield('loader') --}}
     @yield('content')
     {{-- @extends('partial.footer') --}}
    @yield('scripts')
